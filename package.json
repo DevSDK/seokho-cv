@@ -1,0 +1,22 @@
+{
+  "name": "seokho-cv",
+  "version": "1.0.0",
+  "description": "A CV static webpages by React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "seokho song",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "gatsby": "^2.24.11",
+    "gatsby-plugin-i18n": "^1.0.1",
+    "i18next": "^19.6.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
