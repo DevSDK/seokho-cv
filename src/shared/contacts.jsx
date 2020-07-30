@@ -23,6 +23,7 @@ class Contacts extends React.Component {
             <div className='contact-text'>0xdevssh@gmail.com</div>
             <Link icon='github' text='DevSDK' href='https://github.com/devsdk' />
             <Link icon='linkedin' text='seokho-song' href='https://www.linkedin.com/in/seokho-song/' />
+            
         </div>
         )
     }

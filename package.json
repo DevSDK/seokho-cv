@@ -17,6 +17,8 @@
     "gatsby-plugin-i18n": "^1.0.1",
     "i18next": "^19.6.3",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-rating": "^2.0.5",
+    "remove": "^0.1.5"
   }
 }

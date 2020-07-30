@@ -1,6 +1,7 @@
 
 
 import React from "react";
+import { Link } from "gatsby"
 import i18next from 'i18next'
 import './../styles/layout.css'
 import Contacts from './../shared/contacts'
@@ -10,7 +11,7 @@ i18next.init({
     resources: {
         en:{
             translation:{
-
+                
             }
         },
         ko:{
@@ -29,16 +30,29 @@ class MainLayout extends React.Component {
         
     }
     render() {
+        var tags =<Link to='/ko'>한글 버전</Link>
+        if(this.props.lng === 'ko')
+            tags = <Link to= '/'>English</Link>
         return(
-        <div>
-            <h1 className='title'><span className='title-deco'>S</span>eokho <span className='title-deco'>S</span>ong</h1>
-            
-            <div className="center status">"Be Limitless"</div>
-            <div className='mainLayout'>
 
+    <div>
+            <div style={{fontWeight:'bold'}}>
+                {tags}
+            </div>
+            <h1 className='name'><span className='name-deco'>S</span>eokho <span className='title-deco'>S</span>ong</h1>
+            <div className="center status">"Be Limitless"</div> 
+
+            <div className='mainLayout'>
+                <div className='header'>
                 <Contacts/>
+                <div className='header-information'> Computer Science And Engineering of Pai Chai University</div>
+                
+                <div className='header-information'> Average  GPA 4.34</div>
+                <div className='header-information'> Average Major GPA 4.5</div>
+
+                </div>
                 <div>
-                {this.props.children}
+                     {this.props.children}
                 </div>
             </div>
         </div>

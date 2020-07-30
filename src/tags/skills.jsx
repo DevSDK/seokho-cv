@@ -7,17 +7,18 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 library.add(fab)
 
 
-class Link extends React.Component {
+class Skills extends React.Component {
     constructor(props) {
         super(props)
     }
     render() {
         return(
-        <div className='contact-text'> <FontAwesomeIcon style={{width:'30px'}} icon={['fab',this.props.icon]}/>  <a href={this.props.href}>{this.props.text}</a></div>
+            <div> <h3 className='.skills-title'>{this.props.title}</h3> <div className='skills-contents'>{this.props.children}</div></div>
 
         )
     }
 
 }
 
-export default Link;
+export default Skills;
+

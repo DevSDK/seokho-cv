@@ -1,6 +1,10 @@
 
+body {
+
+}
 div {
     font-family: Arial, Helvetica, sans-serif;
+
 }
 /* unvisited link */
 a:link {
@@ -21,28 +25,48 @@ a:link {
 .center {
     text-align: center;
 }
+.text-content
+{
+    padding-top: 20px;
+    padding-left: 20px
+}
 
 .status {
     margin-bottom: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.mainLayout{
- margin:auto;
- width:50%;
- 
-}
-.title {
+
+.name {
     font-weight: bold;
     margin-top:5rem;
     text-align: center;
     font-size: 3.5rem;
     margin-bottom:20px;
 }
-.title-deco {
+.name-deco {
     color:rgb(192, 67, 29);
 }
+.contents-divider {
+    margin-bottom: 5rem;
+}
 
+.header-information {
+    font-weight: bold;
+    text-align: right;
+}
+
+.header {
+    margin-bottom: 5rem;
+}
+
+
+
+.award-item {
+
+    display: table-row;
+
+}
 
 .contact-text {
     margin-bottom:10px;
@@ -51,3 +75,66 @@ a:link {
     font-size: 1.2rem;
     font-weight: bold;
 }
+
+
+.contents-title {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.contents-title-deco {
+    color:rgb(216, 49, 49);
+}
+
+
+.skills-title {
+    font-size: 1.5rem;
+}
+.skills-contents {
+    display: flex;
+    margin-left:20px;
+
+    flex-wrap: wrap;
+}
+
+.skill {
+    -webkit-print-color-adjust: exact; 
+    background-color: rgb(192, 192, 192);
+    margin:5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+    margin-left:1rem;
+
+}
+/*Responsive Area    */
+
+@media only screen and (min-width: 600px) {
+    .mainLayout{
+        width:70%;
+       margin:auto;
+   }
+   
+  }
+
+@media only screen and (max-width: 600px) {
+
+   .mainLayout{
+        width:90%;
+        margin:auto;
+   }
+   .titles {
+       text-align: center;
+   }
+   .header-information {
+    font-weight: bold;
+    text-align: center;
+}
+    .breakable {
+        word-break:break-all;
+    }
+  }
+
+
+  

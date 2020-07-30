@@ -4,20 +4,21 @@ import './../styles/layout.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 library.add(fab)
 
 
-class Link extends React.Component {
+class Skill extends React.Component {
     constructor(props) {
         super(props)
     }
     render() {
+        var t = ''
         return(
-        <div className='contact-text'> <FontAwesomeIcon style={{width:'30px'}} icon={['fab',this.props.icon]}/>  <a href={this.props.href}>{this.props.text}</a></div>
-
+            <div className='skill'> {this.props.children}  </div>
         )
     }
 
 }
 
-export default Link;
+export default Skill;
