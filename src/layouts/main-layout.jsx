@@ -5,6 +5,7 @@ import { Link } from "gatsby"
 import i18next from 'i18next'
 import './../styles/layout.css'
 import Contacts from './../shared/contacts'
+import Helmet from 'react-helmet'
 i18next.init({
     lng:'en',
     debug:true,
@@ -36,6 +37,9 @@ class MainLayout extends React.Component {
         return(
 
     <div>
+        <Helmet>
+            <title>Seokho Song</title>
+        </Helmet>
             <div style={{fontWeight:'bold'}}>
                 {tags}
             </div>
@@ -45,7 +49,7 @@ class MainLayout extends React.Component {
             <div className='mainLayout'>
                 <div className='header'>
                 <Contacts/>
-                <div className='header-information'> Computer Science And Engineering of Pai Chai University</div>
+                <div className='header-information'> Computer Science And Engineering in Pai Chai University</div>
                 
                 <div className='header-information'> Average  GPA 4.34</div>
                 <div className='header-information'> Average Major GPA 4.5</div>

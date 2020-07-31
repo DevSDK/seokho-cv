@@ -12,19 +12,17 @@ library.add(fab)
 class ProjectItem extends React.Component {
     constructor(props) {
         super(props)
-
-      
-        
     }
     render() {
-        var render = 
-        <div style={{display:'table-row'}}>
-            <div style={{width: '10%',display:'table-cell'}}>{this.props.date}</div> &nbsp;
-            <div style={{width:'20%',display:'table-cell',fontWeight:'bold'}}>{this.props.title} </div>&nbsp;
-
-            <div style={{display:'table-cell'}} >{this.props.children}</div>
+        var render = <div style={{ marginBottom: '50px' }}>
+            <div style={{ display: 'flex' }}>
+                <div style={{ fontSize: '1.2rem', width: '60%', display: 'table-cell', fontWeight: 'bold' }}>{this.props.title} </div>&nbsp;
+            <div style={{ width: '20', textAlign: 'right', display: 'table-cell' }}>{this.props.date}</div> &nbsp;
         </div>
-    
+            <div style={{ marginTop: '20px' }}>
+                <div>&nbsp;{this.props.children}</div>
+            </div>
+        </div>
         return render;
     }
 

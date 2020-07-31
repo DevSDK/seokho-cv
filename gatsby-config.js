@@ -1,6 +1,6 @@
 module.exports = {
 	pathPrefix: '/cv',
-plugins: [
+plugins: ['gatsby-plugin-react-helmet',
   {
       resolve: 'gatsby-plugin-i18n',
       options: {        
