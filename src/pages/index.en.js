@@ -5,24 +5,30 @@ import Items from '../tags/items'
 import AwardItem from '../tags/awardItem'
 import ProjectItem from '../tags/projectItem'
 import SkillShared from '../shared/skillShared'
-
+import PrintBreak from '../tags/printBreak'
 export default function App() {
   return (
 
     <div>
       <MainLayout lng='en'>
         <Items title="Introduce">
-          &nbsp; "How?" or "Why"  Those keywords are always appeared in my mind when I met some technologies or theories.<br/>
-          And then I tried to think deeply to figure out.
-&nbsp; When I was 12 years old, I was curious about computer games. I usually played Minecraft.  That game has Mod system that is the game extensions made by developer players.<br />
-One day, I hit on "I want to make that Mod. But How?
-&nbsp; 12 years old young video game player was searching "How to make Mod"<br />
-&nbsp; That was the moment of the first step to be a developer. In middle school, I wanted to develop a game. And I did it. <br />
-As a high school student, I wanted to expand my knowledge. Like Computer Science, Networking, and so on. And I made my own game engine that was used for game making.<br />
-&nbsp; Until now, I've focused on more experience and understand the principles. <br />
- In this area really need English skills. So I wanted to learning English as well. Right before 2 years ago, I cannot separate what is correct between "today" and "to day". But I am a good self-starter and hard-worker. I learned as quickly as possible to read and write even speaking and listening by my own-creative-curriculum.<br />
-Nowadays, the Information era's talented people require creativity, productivity, and self-directed more and more.
+        &nbsp; "Choice and concentration" that keywords, I always have in my mind since I was young. Twelve years old, I was a gamer. I usually played Minecraft. And that game has a Mod that was made by developer users. 
+One day, I thought "I wanna make them". 
+<br/> &nbsp;I opened the online bookstore and purchased Java Programming Language book. That was the moment to enter the programming world in my life.
+<br/> &nbsp;I wanted to know more deep things while I studied more and more.  I decided to study Operating System, Networks, Computer Structure, and Computer Graphics.  And those things transformed into my codes. That experience was very unique to me. 
+<br/> &nbsp;"I wanna make a Mode" gradually changed  "I wanna make a game". So I developed my own game based on my idea Lay and Mirror and I got the prize from the contest by my game. After the game, "How about Game Engine?" mind grown in my mind. So I studied Game Engine Architecture and finally developed "Comet Engine( A Java, AndroidSDK,  OpenGL, GLES based cross-platform Game Engine. )"
+<br/> &nbsp; While I directed to the native area of programming, I remind the developer bucket list. That was my own operating system. And I dived into it. 0SOS project is an operating system developing project from the bootloader to shell. To develop 0SOS I read the Intel x86 Architecture documents. As a result, I finally and deeply knew what is the Computer.
+<br/> &nbsp;With my programming experiences, I entered Software Maestro 8th as a mentee. I wrote the code for the virtual machine, optimization, and computer graphics. 
+
+<br/> &nbsp;And I wished to share those experiences. Also, I want to contribute to the world. So I participated in Open Source Projects such as Osu!, Osu!-Framework, Linux Kernel, and solved-ac.
+
+<br/> &nbsp;In opensource projects, English skills are required. And I had no idea what was English is, right before 2 years ago. For example, I cannot separate what was correct between "today" and "to day". But I am a good self-starter and hard-worker. I learned as quickly as possible to read and write even speaking and listening by my own-creative-curriculum.
+<br/> &nbsp;I have experienced between High Levels like Web, Application, and Low Levels like Operating System, Game Engine, Compilers. I can handle the wide and various things. That is my strong point.
+<br/> &nbsp;Nowadays, the Information era's talented people require creativity, productivity, and self-directed. And I swear, I'm satisfying those requirements.
+
         </Items>
+
+        <PrintBreak/>
         <Items title="Awards">
           <AwardItem year='2020' title='Mentoring Competition' prize='2nd' from='Computer Science and Engineering in Pai Chai University' />
 
@@ -39,10 +45,12 @@ Nowadays, the Information era's talented people require creativity, productivity
           <AwardItem year='2015' title='Korea Research Contest of gifted and talented education in collage' prize='2nd' from='Korea Advanced Institute of Science and Technology, Republic of Korea' />
 
         </Items>
+
+        <PrintBreak/>
         <Items title="Project Experiences">
 
         <ProjectItem title='seokho-cv' date='2020.08-' >
-            Tihs page.
+            This page.
             <ul>
               <li> Persnal Project </li>
               <li> React, Gatsby</li>
@@ -53,7 +61,7 @@ Nowadays, the Information era's talented people require creativity, productivity
 
 
           <ProjectItem title='GCP-WebProject' date='2019.11-2019-12' >
-            project in university. Save the emotion of the submitted picture to chrome local stroage. My role was the leader of this project.
+            project in university. the emotion of the evaluated by GCP store to chrome local stroage. My role was the leader of this project.
             <ul>
               <li> Team Project </li>
               <li> JQuery, Bootstrap, Google Cloud Platform, Face Recognition</li>
@@ -107,7 +115,7 @@ Nowadays, the Information era's talented people require creativity, productivity
           Block GL is a block-based WebGL shader programming solution. When users edit the blocks, it would generate GLSL source code automatically and rendering WebGL with generated GLSL source code binding. My role was to guide design blocks WebGL and GLSL parts.
              <ul>
               <li> Team Project </li>
-              <li> JS, Blockly, WebGL </li>
+              <li> JS, Blockly, WebGL, Pair Programming</li>
               <li> Webpage </li>
               <li><a className='breakable' href="https://devsdk.github.io/BlockGL/Code/Editor/Editor.html">URL: https://devsdk.github.io/BlockGL/Code/Editor/Editor.html</a></li>
               <li><a className='breakable' href="https://github.com/DevSDK/BlockGL">Repository: https://github.com/DevSDK/BlockGL</a></li>
@@ -142,6 +150,7 @@ Nowadays, the Information era's talented people require creativity, productivity
           </ProjectItem>
         </Items>
 
+        <PrintBreak/>
 
 
         <Items title="Open Source Experiences">
@@ -185,15 +194,24 @@ Nowadays, the Information era's talented people require creativity, productivity
             </ul>
         </ProjectItem>
 
-
-
         </Items>
-
-
+        <PrintBreak/>
 
         <Items title="Skills">
           <SkillShared/>
         </Items>
+
+
+        <Items title="Activity">
+          <ul>
+           <li>(2020) Open Source Contributhon Chromium Team</li>
+            <li>(2017) Software maestro 8th mentee</li>
+            <li>(2015) Information special education 2nd step of chungnam national university</li>
+            <li>(2014) Information special education 1st step of chungnam national university</li>
+          </ul>
+
+        </Items>
+
         <Items title="Certificates">
           <ul>
             <li>(2016) Craftsman Information Processing</li>

@@ -23,7 +23,7 @@ class SkillShared extends React.Component {
                 <Skill>C/C++</Skill>
                 <Skill>C#</Skill>
                 <Skill>Java</Skill>
-                <Skill>Assembly (Nasm, MIPS)</Skill>
+                <Skill>Assembly (NASM, MIPS)</Skill>
                 <Skill>Javascript</Skill>
                 <Skill>Python</Skill>
                 <Skill>Lua</Skill>
@@ -59,8 +59,8 @@ class SkillShared extends React.Component {
             <Skills title="Tools">
                 <Skill>Git</Skill>
                 <Skill>Vim</Skill>
+                <Skill>GDB</Skill>
                 <Skill>Objdump</Skill>
-
                 <Skill>VSCode</Skill>
                 <Skill>PyCharm</Skill>
                 <Skill>IDEA</Skill>
@@ -81,10 +81,9 @@ class SkillShared extends React.Component {
 
             <Skills title="Etc.">
                 <Skill>Compiler</Skill>
-    
                 <Skill>Cross-Platform Architecture</Skill>
                 <Skill>Open Source</Skill>
- 
+                <Skill>Linux Server</Skill>
                 <Skill>NginX</Skill>
                 <Skill>Algorithm</Skill>
                 <Skill>Data Structure</Skill>

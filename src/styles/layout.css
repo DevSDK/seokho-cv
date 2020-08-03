@@ -3,8 +3,15 @@ body {
 
 }
 div {
-    font-family: Arial, Helvetica, sans-serif;
 
+    font-family: 'Karla', sans-serif;
+
+}
+
+
+
+li{ 
+    margin-bottom: 5px;
 }
 /* unvisited link */
 a:link {
@@ -65,6 +72,7 @@ a:link {
 .award-item {
 
     display: table-row;
+    
 
 }
 
@@ -133,8 +141,14 @@ a:link {
 }
     .breakable {
         word-break:break-all;
-    }
+    
   }
 
 
-  
+}
+@media print {
+    .page-break { display: block; page-break-before: always; }
+    .print-hidden {
+        display: none;
+    }
+    }

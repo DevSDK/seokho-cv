@@ -21,11 +21,13 @@ class AwardItem extends React.Component {
         var render  = 
         <div style={{marginBottom:'10px'}}>
         <div className='award-item'>
+        
         <div style={{width:'10%',display:'table-cell'}}>{this.props.year}</div> &nbsp;
-         <div style={{width:'40%',display:'table-cell'}}>{this.props.title}</div>  &nbsp;
+         <div style={{width:'50%',display:'table-cell'}}>{this.props.title}</div>  &nbsp;
+         
          <div className ='breakable' style={{ width:'15%',display:'table-cell'}}>{this.props.prize}</div>&nbsp;
-         <div style={{width:'15%',display:'table-cell',textAlign:'right'}}>{this.props.from}</div> 
-        </div>
+         <div style={{width:'25%',display:'table-cell',textAlign:'right'}}>{this.props.from}</div> 
+         </div>
         </div>
         return render;
     }
