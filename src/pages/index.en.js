@@ -12,24 +12,22 @@ export default function App() {
     <div>
       <MainLayout lng='en'>
         <Items title="Introduce">
-        &nbsp; "Choice and concentration" that keywords, I always have in my mind since I was young. Twelve years old, I was a gamer. I usually played Minecraft. And that game has a Mod that was made by developer users. 
-One day, I thought "I wanna make them". 
-<br/> &nbsp;I opened the online bookstore and purchased Java Programming Language book. That was the moment to enter the programming world in my life.
-<br/> &nbsp;I wanted to know more deep things while I studied more and more.  I decided to study Operating System, Networks, Computer Structure, and Computer Graphics.  And those things transformed into my codes. That experience was very unique to me. 
-<br/> &nbsp;"I wanna make a Mode" gradually changed  "I wanna make a game". So I developed my own game based on my idea Lay and Mirror and I got the prize from the contest by my game. After the game, "How about Game Engine?" mind grown in my mind. So I studied Game Engine Architecture and finally developed "Comet Engine( A Java, AndroidSDK,  OpenGL, GLES based cross-platform Game Engine. )"
-<br/> &nbsp; While I directed to the native area of programming, I remind the developer bucket list. That was my own operating system. And I dived into it. 0SOS project is an operating system developing project from the bootloader to shell. To develop 0SOS I read the Intel x86 Architecture documents. As a result, I finally and deeply knew what is the Computer.
-<br/> &nbsp;With my programming experiences, I entered Software Maestro 8th as a mentee. I wrote the code for the virtual machine, optimization, and computer graphics. 
+       <span style={{fontWeight:'bold'}}> The developer who does everything I want to do.</span>
+<br/>
+I have a very wide spectrum of development through various experiences.
+<br/>
 
-<br/> &nbsp;And I wished to share those experiences. Also, I want to contribute to the world. So I participated in Open Source Projects such as Osu!, Osu!-Framework, Linux Kernel, and solved-ac.
-
-<br/> &nbsp;In opensource projects, English skills are required. And I had no idea what was English is, right before 2 years ago. For example, I cannot separate what was correct between "today" and "to day". But I am a good self-starter and hard-worker. I learned as quickly as possible to read and write even speaking and listening by my own-creative-curriculum.
-<br/> &nbsp;I have experienced between High Levels like Web, Application, and Low Levels like Operating System, Game Engine, Compilers. I can handle the wide and various things. That is my strong point.
-<br/> &nbsp;Nowadays, the Information era's talented people require creativity, productivity, and self-directed. And I swear, I'm satisfying those requirements.
+&nbsp;In elementary students, I entered the programming world with developing Minecraft mod. I'm interested in everything related to programming, especially Web Browser, Operating System, and Algorithm recently. 
+<br/>
+&nbsp;I believe chance favors only the prepared mind. Now I work hard to be ready.
 
         </Items>
 
-        <PrintBreak/>
+
+
+
         <Items title="Awards">
+
           <AwardItem year='2020' title='Mentoring Competition' prize='2nd' from='Computer Science and Engineering in Pai Chai University' />
 
           <AwardItem year='2019' title='Programming Challange' prize='1st' from='Computer Science and Engineering in Pai Chai University' />
@@ -47,7 +45,7 @@ One day, I thought "I wanna make them".
         </Items>
 
         <PrintBreak/>
-        <Items title="Project Experiences">
+        <Items title="Projects">
 
         <ProjectItem title='seokho-cv' date='2020.08-' >
             This page.
@@ -61,7 +59,7 @@ One day, I thought "I wanna make them".
 
 
           <ProjectItem title='GCP-WebProject' date='2019.11-2019-12' >
-            project in university. the emotion of the evaluated by GCP store to chrome local stroage. My role was the leader of this project.
+            Face Recognition using Google Cloud Platform. 
             <ul>
               <li> Team Project </li>
               <li> JQuery, Bootstrap, Google Cloud Platform, Face Recognition</li>
@@ -72,7 +70,8 @@ One day, I thought "I wanna make them".
 
 
           <ProjectItem title='Batu' date='2017.06-2017.12' >
-            Batu is a virtual machine solution. The base concept is 'Use multiple people a computer.' This project is a team project. My role was "OpenGL Rendering and Optimization of graphic part"  <ul>
+            Virtual Machine solution based on KVM. One Machine, Multi User concept.
+            <ul>
               <li> SW Maestro 8th team project </li>
               <li> C/C++ </li>
               <li> System, Linux, OpenGL </li>
@@ -81,8 +80,8 @@ One day, I thought "I wanna make them".
           </ProjectItem>
 
           <ProjectItem title='0SOS' date='2017.06-' >
-          0SOS project is a development project of 64bit (IA-32) general-purpose Operating System. This project was Breakthrough my knowledge of memory management, debugging methods, low-level systems.
-          <ul>
+            An 64Bit general-purpose Operating system development project.
+            <ul>
               <li> Persnal Project </li>
               <li> Assembly (NASM), C</li>
               <li> System, Kernel, Operating System </li>
@@ -91,9 +90,7 @@ One day, I thought "I wanna make them".
           </ProjectItem>
 
           <ProjectItem title='Connseed' date='2017.06-207.07' >
-
-            Connseed project is a smart farming and monitoring solution using SKT Lora network. My role was to develop Back-END, API design, connect F/E.
-
+            Smartfarm solution project based on SKT Lora network. 
              <ul>
               <li> Team Project </li>
               <li> Python, Django, SQLite </li>
@@ -103,7 +100,7 @@ One day, I thought "I wanna make them".
             </ul>
           </ProjectItem>
           <ProjectItem title='Co-Language' date='2016.12-2017.01' >
-            C-Like Programming Language Development project using Bision and Flex. This experience gives a chance to think about the compiler's internal structure such as back-end and front-end.
+            Programming Langauge development project.
              <ul>
               <li> Persnal Project </li>
               <li> Bision, Flex, C/C++ </li>
@@ -112,7 +109,8 @@ One day, I thought "I wanna make them".
           </ProjectItem>
 
           <ProjectItem title='Block GL' date='2016.10-2016.12' >
-          Block GL is a block-based WebGL shader programming solution. When users edit the blocks, it would generate GLSL source code automatically and rendering WebGL with generated GLSL source code binding. My role was to guide design blocks WebGL and GLSL parts.
+
+          WebGL block coding webpage like scratch.
              <ul>
               <li> Team Project </li>
               <li> JS, Blockly, WebGL, Pair Programming</li>
@@ -124,7 +122,7 @@ One day, I thought "I wanna make them".
           </ProjectItem>
 
           <ProjectItem title='Book Check' date='2016.7-2016.10' >
-            Book Check project's concept is the 21st century's smart library system using IT technology. Books can be maintained by an RFID tag system smartly comfortably. My role was to develop a manager client, resolve issues, and connect the communication system.
+            Smart libarry system
              <ul>
               <li> Team Project </li>
               <li> Java, JS, NodeJS, Android, Arduino </li>
@@ -132,7 +130,7 @@ One day, I thought "I wanna make them".
             </ul>
           </ProjectItem>
           <ProjectItem title='Comet Engine' date='2016.06-2016.12' >
-            Comet Engine project is a game engine development project. Comet Engine is a Java-based cross-platform game engine. It supports Android, Linux, Windows.
+            Java based cross-platform game engine.
              <ul>
               <li>Persnal Project</li>
               <li> Java, GLSL </li>
@@ -142,7 +140,7 @@ One day, I thought "I wanna make them".
           </ProjectItem>
 
           <ProjectItem title='Arrive The Light' date='2015.06-2015.07' >
-            Arrive The Light is a 2D puzzle game concept with light rays based on the Cocos2d-x game engine and C++ language. I god the prize of 1st place from the KOI competition (2015).
+            Arrive The Light is a 2D puzzle game concept with light rays.
             <ul>
               <li> C/C++ </li>
               <li> Game, Cocos2d-x </li>
@@ -202,7 +200,7 @@ One day, I thought "I wanna make them".
         </Items>
 
 
-        <Items title="Activity">
+        <Items title="Activities">
           <ul>
            <li>(2020) Open Source Contributhon Chromium Team</li>
             <li>(2017) Software maestro 8th mentee</li>

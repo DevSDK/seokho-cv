@@ -62,8 +62,7 @@ class MainLayout extends React.Component {
                 <Contacts/>
                 <div className='header-information'> Computer Science And Engineering in Pai Chai University</div>
                 
-                <div className='header-information'> Average  GPA 4.34</div>
-                <div className='header-information'> Average Major GPA 4.5</div>
+                <div className='header-information'> GPA 4.34 (Major 4.5)</div>
 
                 </div>
                 <div>
