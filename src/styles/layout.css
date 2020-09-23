@@ -11,7 +11,7 @@ div {
 
 
 li{ 
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 /* unvisited link */
 a:link {
@@ -147,7 +147,13 @@ a:link {
 
 }
 @media print {
-    .page-break { display: block; page-break-before: always; }
+    body{
+        font-size: small;
+        height:297mm;
+        width:210mm;
+    }
+    
+    .page-break { page-break-after: always; }
     .print-hidden {
         display: none;
     }

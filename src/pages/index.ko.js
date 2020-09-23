@@ -28,19 +28,13 @@ export default function App() {
             </Items>
 
         <Items title="Awards">
-          <AwardItem year='2020' title='멘토링 경진대회' prize='2위' from='배재대학교 컴퓨터공학부' />
-
           <AwardItem year='2019' title='프로그래밍 경진대회' prize='1위' from='배재대학교 컴퓨터공학부' />
           <AwardItem year='2019' title='학술제' prize='1위' from='배재대학교 컴퓨터공학부' />
-          <AwardItem year='2017' title='대전 스타트업 경진대회' prize='1위' from='대한민국 대전광역시' />
-          <AwardItem year='2017' title='대전 과학경진대회' prize='특상' from='대한민국 대전광역시' />
-
-          <AwardItem year='2017' title='대전 기능경기대회' prize='3위' from='대한민국 대전광역시 기능경기대회 위원회' />
-          <AwardItem year='2016' title='Smarteen App Chalange (STAC)' prize='1위 (특별상)' from='SKT TexchX' />
+          <AwardItem year='2017' title='대전 기능경기대회(게임개발부분)' prize='3위' from='대한민국 대전광역시 기능경기대회 위원회' />
           <AwardItem year='2016' title='한국 정보 올림피아드 (공모부분)' prize='3위' from='대한민국 과학기술정보통신부' />
           <AwardItem year='2015' title='한국 정보 올림피아드 (공모부분)' prize='1위' from='대한민국 미래창조과학부 (현 과기정통부)' />
           <AwardItem year='2015' title='대전 정보 올림피아드 (경시부분)' prize='장려상' from='대한민국 대전 교육정보원' />
-          <AwardItem year='2015' title='전국 대학부설 영재교육원 사사과정 연구성과 발표대회' prize='2nd' from='대한민국 KAIST' />
+
 
         </Items>
 
@@ -153,6 +147,15 @@ export default function App() {
 
         <Items title="Open Source Experiences">
 
+        <ProjectItem title='Chromium' date='2020.8-' >
+            구글 크로미움 프로젝트 맴버
+             <ul>
+              <li>Contributor</li>
+              <li> C++</li>
+              <li><a className='breakable' href="https://chromium-review.googlesource.com/dashboard/1438488 ">Dashboard: https://chromium-review.googlesource.com/dashboard/1438488 </a></li>
+            </ul>
+          </ProjectItem>
+
           <ProjectItem title='Solvedac-plugin' date='2019.11-' >
             맴버가 아닌 사람도 레이팅을 임시로 계산할 수 있는 기능을 제안 & 구현
              <ul>
@@ -202,7 +205,6 @@ export default function App() {
         <Items title="Activities">
           <ul>
            <li>(2020) Open Source 컨트리뷰톤 Chromium 팀</li>
-          
             <li>(2017) SW 마에스트로 8기</li>
             <li>(2015) 충남대학교 정보영재교육원 사사과정</li>
             <li>(2014) 충남대학교 정보영재교육원 심화과정</li>
@@ -222,6 +224,15 @@ export default function App() {
             <li>(2019) 배재대학교 컴퓨터 공학과</li>
           </ul>
         </Items>
+        <Items title="ETC"> 
+        <AwardItem year='2020' title='멘토링 경진대회' prize='2위' from='배재대학교 컴퓨터공학부' />
+          <AwardItem year='2017' title='대전 스타트업 경진대회' prize='1위' from='대한민국 대전광역시' />
+          <AwardItem year='2017' title='대전 과학경진대회' prize='특상' from='대한민국 대전광역시' />
+          <AwardItem year='2016' title='Smarteen App Chalange (STAC)' prize='1위 (특별상)' from='SKT TexchX' />
+          <AwardItem year='2015' title='전국 대학부설 영재교육원 사사과정 연구성과 발표대회' prize='2nd' from='대한민국 KAIST' />
+        </Items>
+
+        
       </MainLayout>
     </div>
   );

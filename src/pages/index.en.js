@@ -28,34 +28,19 @@ I have a very wide spectrum of development through various experiences.
 
         <Items title="Awards">
 
-          <AwardItem year='2020' title='Mentoring Competition' prize='2nd' from='Computer Science and Engineering in Pai Chai University' />
+
 
           <AwardItem year='2019' title='Programming Challange' prize='1st' from='Computer Science and Engineering in Pai Chai University' />
           <AwardItem year='2019' title='Programming Contest' prize='1st' from='Computer Science and Engineering in Pai Chai University' />
-          <AwardItem year='2017' title='Daejeon Start Up Contest' prize='1st' from='Daejeon, Republic of Korea' />
-          <AwardItem year='2017' title='Daejeon Science Contest' prize='Special Prize' from='Daejeon, Republic of Korea' />
-
-          <AwardItem year='2017' title='Daejeon Skill Competition' prize='3rd' from='Organization of Daejeon skill competition, Daejeon, Republic of Korea' />
-          <AwardItem year='2016' title='Smarteen App Chalange' prize='1st   (Special Prize)' from='SKT TexchX, Republic of Korea' />
+          <AwardItem year='2017' title='Daejeon Skill Competition (Game Development)' prize='3rd' from='Organization of Daejeon skill competition, Daejeon, Republic of Korea' />
           <AwardItem year='2016' title='Korea Olympiad in Informatics (Contest)' prize='3rd' from='Ministry of Science and ICT , Republic of Korea' />
           <AwardItem year='2015' title='Korea Olympiad in Informatics (Contest)' prize='1rd' from='Ministry of Science and ICT , Republic of Korea' />
           <AwardItem year='2015' title='Daejeon Olympiad in Informatics (Competition)' prize='Participation Prize' from='Daejeon Institute of Education Information, Republic of Korea' />
-          <AwardItem year='2015' title='Korea Research Contest of gifted and talented education in collage' prize='2nd' from='Korea Advanced Institute of Science and Technology, Republic of Korea' />
 
         </Items>
 
         <PrintBreak/>
         <Items title="Projects">
-
-        <ProjectItem title='seokho-cv' date='2020.08-' >
-            This page.
-            <ul>
-              <li> Persnal Project </li>
-              <li> React, Gatsby</li>
-              <li> Multi Language Static Web page </li>
-              <li><a className='breakable' href="https://github.com/DevSDK/seokho-cv">Repository: https://github.com/DevSDK/seokho-cv</a></li>
-            </ul>
-          </ProjectItem>
 
 
           <ProjectItem title='GCP-WebProject' date='2019.11-2019-12' >
@@ -152,7 +137,14 @@ I have a very wide spectrum of development through various experiences.
 
 
         <Items title="Open Source Experiences">
-
+        <ProjectItem title='Chromium' date='2020.8-' >
+            The Chromium Project Member
+             <ul>
+              <li>Contributor</li>
+              <li> C++</li>
+              <li><a className='breakable' href="https://chromium-review.googlesource.com/dashboard/1438488 ">Dashboard: https://chromium-review.googlesource.com/dashboard/1438488 </a></li>
+            </ul>
+          </ProjectItem>
         <ProjectItem title='Solvedac-plugin' date='2019.11-' >
         Suggested & implemented the feature non-regular member can evaluate their ratings. 
              <ul>
@@ -221,6 +213,14 @@ I have a very wide spectrum of development through various experiences.
             <li>(2019) Computer Science and Engineering of Pai Chai University</li>
           </ul>
         </Items>
+        <Items title="ETC"> 
+        <AwardItem year='2020' title='Mentoring Competition' prize='2nd' from='Computer Science and Engineering in Pai Chai University' />
+         <AwardItem year='2017' title='Daejeon Start Up Contest' prize='1st' from='Daejeon, Republic of Korea' />
+          <AwardItem year='2017' title='Daejeon Science Contest' prize='Special Prize' from='Daejeon, Republic of Korea' />
+          <AwardItem year='2016' title='Smarteen App Chalange' prize='1st   (Special Prize)' from='SKT TexchX, Republic of Korea' />
+          <AwardItem year='2015' title='Korea Research Contest of gifted and talented education in collage' prize='2nd' from='Korea Advanced Institute of Science and Technology, Republic of Korea' />
+        </Items>
+
       </MainLayout>
     </div>
   );
