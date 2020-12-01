@@ -13,6 +13,11 @@ div {
 li{ 
     margin-bottom: 2px;
 }
+
+.introduce-title {
+    
+}
+
 /* unvisited link */
 a:link {
     color: black;
@@ -52,7 +57,7 @@ a:link {
     margin-bottom:20px;
 }
 .name-deco {
-    color:rgb(192, 67, 29);
+    color:rgb(255, 0, 0)
 }
 .contents-divider {
     margin-bottom: 5rem;
@@ -86,11 +91,13 @@ a:link {
 
 
 .contents-title {
+
+    color:rgb(255, 0, 0);
     font-size: 2.2rem;
     font-weight: bold;
 }
 .contents-title-deco {
-    color:rgb(216, 49, 49);
+    color:black;
 }
 
 
@@ -118,15 +125,25 @@ a:link {
 }
 /*Responsive Area    */
 
-@media only screen and (min-width: 600px) {
+
+
+
+@media only screen and (min-width: 1200px) {
     .mainLayout{
-        width:70%;
+        width:45%;
        margin:auto;
    }
    
   }
+  @media only screen and (max-width : 1200px) { 
+    .mainLayout{
+        width:70%;
+       margin:auto;
+   }
 
-@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (max-width: 768px) {
 
    .mainLayout{
         width:90%;

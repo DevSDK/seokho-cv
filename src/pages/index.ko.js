@@ -13,43 +13,103 @@ export default function App() {
       <MainLayout lng='ko'>
         <Items title="Introduce">
           <br/>
-        <span style={{fontWeight:'bold'}}>하고싶은거 하는 개발자입니다. </span>
+        <span style={{fontWeight:'bold'}}>도전을 즐깁니다. 그리고 언제나 배울 준비가 되어 있습니다.</span>
 <br/>
-다양한 경험을 토대로 넓은 개발 스팩트럼을 가지고 있습니다.
+다양한 경험을 토대로 넓은 개발 스팩트럼을 가지고 있습니다. 다양한 것을 접하고, 사도하는 것에 두려움이 없습니다.
 <br/>
-&nbsp;초등학생 시절, 좋아하던 게임 '마인크래프트'의 모드를 개발하는 것을 시작으로 프로그래밍 세계에 뛰어들었습니다. 다양한 프로그래밍과 관련된 모든 것에 관심을 가지고 있으며, 특히 Web Browser, Operating System에 관심을 가지고, 최근에는 Algorithm에 관심을 많이 가지고 있습니다.
-
+&nbsp;초등학생 시절, 좋아하던 게임 '마인크래프트'의 모드를 개발하는 것을 시작으로 프로그래밍 세계에 뛰어들었습니다. 프로그래밍과 관련된 모든 것에 관심을 가지고 공부하고 있습니다.
 <br/>
-
 &nbsp; 준비된 자가 기회를 잡을 수 있다고 믿고 있으며, 항상 준비된 사람이 되기 위해 노력하고 있습니다.
-
-
+<br/>
+<br/>
+<span style={{fontWeight:'bold'}}>다양한 경험은 절 성장시켰습니다.</span>
+<br/>
+&nbsp; 저는 안드로이드 / iOS 어플리케이션, 웹 프론트엔드 / 백엔드, 시스템소프트웨어 / 응용소프트웨어 등 분야의 경계를 뛰어넘어 다양한 개발 경험을 하는 것을 항상 즐겨왔고, 다양한 개발을 시도 해 보았습니다. 정보올림피아드를 시작으로, 다양한 대회에 도전하였고 여러 성과를 냈습니다.  또한 SW마에스트로 8기에 선정되어 다양한 사람들과 다양한 경험을 하였습니다.
+<br/>
+<br/>
+<span style={{fontWeight:'bold'}}>제가 세상을 변화시킵니다.</span>
+<br/>
+&nbsp; 오픈소스 참여에 적극적으로 활동하고 있고, 세상에 기여한다는 것에 큰 관심을 가지고 있습니다.
+<br/>
+&nbsp; 현재는 Chromium 프로젝트의 맴버로 활동하며 Chromium Blink 웹 엔진 기능 구현 및 버그픽스 작업을 하고 있습니다.
 
             </Items>
 
         <Items title="Awards">
+          <AwardItem year='2020' title='컨트리뷰톤' prize='2위' from='정보산업통신산업진흥원' />
+          <AwardItem year='2020' title='SW 융합 해커톤 경진대회' prize='1위' from='배재대학교 컴퓨터공학부'/>
+          <AwardItem year='2020' title='프로그래밍 경진대회' prize='2위' from='배재대학교 컴퓨터공학부' />
           <AwardItem year='2019' title='프로그래밍 경진대회' prize='1위' from='배재대학교 컴퓨터공학부' />
           <AwardItem year='2019' title='학술제' prize='1위' from='배재대학교 컴퓨터공학부' />
           <AwardItem year='2017' title='대전 기능경기대회(게임개발부분)' prize='3위' from='대한민국 대전광역시 기능경기대회 위원회' />
           <AwardItem year='2016' title='한국 정보 올림피아드 (공모부분)' prize='3위' from='대한민국 과학기술정보통신부' />
           <AwardItem year='2015' title='한국 정보 올림피아드 (공모부분)' prize='1위' from='대한민국 미래창조과학부 (현 과기정통부)' />
           <AwardItem year='2015' title='대전 정보 올림피아드 (경시부분)' prize='장려상' from='대한민국 대전 교육정보원' />
+        </Items>
+
+        <PrintBreak />
+
+
+
+        <Items title="Open Source Projects">
+
+        <ProjectItem title='Chromium' date='2020.8-' >
+            구글 크로미움 프로젝트 맴버
+             <ul>
+              <li>Project Member</li>
+              <li> C++</li>
+              <li><a className='breakable' href="https://chromium-review.googlesource.com/q/owner:0xdevssh%2540gmail.com ">Dashboard: https://chromium-review.googlesource.com/q/owner:0xdevssh%2540gmail.com </a></li>
+              <li><a className='breakable' href="https://chromium-review.googlesource.com/q/owner:0xdevssh%2540gmail.com ">Work: https://chromium-review.googlesource.com/q/owner:0xdevssh%2540gmail.com </a>  </li>
+            </ul>
+          </ProjectItem>
+
+          <ProjectItem title='Perf, Kernel/Linux' date='2017.12-' >
+            Perf GUI의 잘못된 초기화 순서를 올바르게 고침
+             <ul>
+              <li>Contributor</li>
+              <li> C </li>
+              <li> System, Linux </li>
+              <li><a className='breakable' href="https://bit.ly/2PazOTn">Patch: https://bit.ly/2PazOTn</a></li>
+            </ul>
+          </ProjectItem>
+          <ProjectItem title='Osu!' date='2017.12-' >
+            Retry 카운터에 문제가 있는걸 발견하고 고침
+             <ul>
+              <li>Contributor</li>
+              <li> C# </li>
+              <li> Game </li>
+              <li><a className='breakable' href="https://github.com/ppy/osu/pull/1709 ">Patch: https://github.com/ppy/osu/pull/1709 </a></li>
+            </ul>
+          </ProjectItem>
+
+
+          <ProjectItem title='Osu!-Framework' date='2017.12-' >
+            비동기 함수를 사용하는 부분에 대한 문제를 제시하고 그 가능성을 제거함
+             <ul>
+              <li>Contributor</li>
+              <li> C# </li>
+              <li> Game Engine, Framework</li>
+              <li><a className='breakable' href="https://github.com/ppy/osu-framework/pull/1241">Patch: https://github.com/ppy/osu-framework/pull/1241</a></li>
+            </ul>
+          </ProjectItem>
+          <ProjectItem title='Solvedac-plugin' date='2019.11-' >
+            맴버가 아닌 사람도 레이팅을 임시로 계산할 수 있는 기능을 제안 & 구현
+             <ul>
+              <li>Contributor</li>
+              <li> JS/HTML </li>
+              <li> Chrome-extension </li>
+              <li><a className='breakable' href="https://github.com/shiftpsh/solvedac-plugin/pull/23 ">Patch: https://github.com/shiftpsh/solvedac-plugin/pull/23 </a></li>
+            </ul>
+          </ProjectItem>
 
 
         </Items>
 
         <PrintBreak />
+
         <Items title="Projects">
 
-          <ProjectItem title='seokho-cv' date='2020.08-' >
-            이 페이지.
-            <ul>
-              <li> 개인 프로젝트 </li>
-              <li> React, Gatsby</li>
-              <li> Multi Language Static Web page </li>
-              <li><a className='breakable' href="https://github.com/DevSDK/seokho-cv">저장소: https://github.com/DevSDK/seokho-cv</a></li>
-            </ul>
-          </ProjectItem>
+
 
 
           <ProjectItem title='GCP-WebProject' date='2019.11-2019-12' >
@@ -140,63 +200,11 @@ export default function App() {
               <li> Game, Cocos2d-x </li>
             </ul>
           </ProjectItem>
+
         </Items>
 
         <PrintBreak />
 
-
-        <Items title="Open Source Experiences">
-
-        <ProjectItem title='Chromium' date='2020.8-' >
-            구글 크로미움 프로젝트 맴버
-             <ul>
-              <li>Contributor</li>
-              <li> C++</li>
-              <li><a className='breakable' href="https://chromium-review.googlesource.com/dashboard/1438488 ">Dashboard: https://chromium-review.googlesource.com/dashboard/1438488 </a></li>
-            </ul>
-          </ProjectItem>
-
-          <ProjectItem title='Solvedac-plugin' date='2019.11-' >
-            맴버가 아닌 사람도 레이팅을 임시로 계산할 수 있는 기능을 제안 & 구현
-             <ul>
-              <li>Contributor</li>
-              <li> JS/HTML </li>
-              <li> Chrome-extension </li>
-              <li><a className='breakable' href="https://github.com/shiftpsh/solvedac-plugin/pull/23 ">Patch: https://github.com/shiftpsh/solvedac-plugin/pull/23 </a></li>
-            </ul>
-          </ProjectItem>
-          <ProjectItem title='Osu!' date='2017.12-' >
-            Retry 카운터에 문제가 있는걸 발견하고 고침
-             <ul>
-              <li>Contributor</li>
-              <li> C# </li>
-              <li> Game </li>
-              <li><a className='breakable' href="https://github.com/ppy/osu/pull/1709 ">Patch: https://github.com/ppy/osu/pull/1709 </a></li>
-            </ul>
-          </ProjectItem>
-
-          <ProjectItem title='Osu!-Framework' date='2017.12-' >
-            비동기 함수를 사용하는 부분에 대한 문제를 제시하고 그 가능성을 제거함
-             <ul>
-              <li>Contributor</li>
-              <li> C# </li>
-              <li> Game Engine, Framework</li>
-              <li><a className='breakable' href="https://github.com/ppy/osu-framework/pull/1241">Patch: https://github.com/ppy/osu-framework/pull/1241</a></li>
-            </ul>
-          </ProjectItem>
-
-          <ProjectItem title='Perf, Kernel/Linux' date='2017.12-' >
-            Perf GUI의 잘못된 초기화 순서를 올바르게 고침
-             <ul>
-              <li>Contributor</li>
-              <li> C </li>
-              <li> System, Linux </li>
-              <li><a className='breakable' href="https://bit.ly/2PazOTn">Patch: https://bit.ly/2PazOTn</a></li>
-            </ul>
-          </ProjectItem>
-        </Items>
-
-        <PrintBreak />
 
         <Items title="Skills">
           <SkillShared />
@@ -215,6 +223,7 @@ export default function App() {
         
         <Items title="Certificates">
           <ul>
+          <li>(2020) TOEIC 835</li>
             <li>(2016) 정보처리기능사</li>
           </ul>
         </Items>

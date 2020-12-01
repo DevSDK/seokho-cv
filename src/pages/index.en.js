@@ -12,33 +12,95 @@ export default function App() {
     <div>
       <MainLayout lng='en'>
         <Items title="Introduce">
-       <span style={{fontWeight:'bold'}}> The developer who does everything I want to do.</span>
+       <span style={{fontWeight:'bold'}}> I do love challenges.  I've ready to learn anything. </span>
 <br/>
-I have a very wide spectrum of development through various experiences.
+I have a very wide spectrum of development through various experiences. I do not hesitate to do something new.
 <br/>
 
-&nbsp;In elementary students, I entered the programming world with developing Minecraft mod. I'm interested in everything related to programming, especially Web Browser, Operating System, and Algorithm recently. 
+&nbsp;In elementary students, I entered the programming world with developing Minecraft mod. I'm interested in everything related to programming. 
 <br/>
 &nbsp;I believe chance favors only the prepared mind. Now I work hard to be ready.
-
+<br/>
+<br/>
+<span style={{fontWeight:'bold'}}>The experience makes me the engineer.</span>
+<br/>
+&nbsp; I have enjoyed and tried the experience with Android / iOS application, Web Front-End/Back-End, System / Application software. Begin with KOI(Korea Olympiad in Informatics), I challenged various competitions or contests and got prizes. Also, I've been selected SW Maestro Program and get a great experience and met many great people.
+<br/>
+<br/>
+<span style={{fontWeight:'bold'}}>One line of the code, change the world.</span>
+<br/>
+&nbsp; I love to participate Open Source projects. And I have a huge interest about contribute to the world.
+<br/>
+&nbsp; Currently, as a chromium project member, I am working on the feature development and fixing issues for the Chromium Blink project.
         </Items>
 
 
 
 
         <Items title="Awards">
-
-
-
-          <AwardItem year='2019' title='Programming Challange' prize='1st' from='Computer Science and Engineering in Pai Chai University' />
+          <AwardItem year='2020' title='Contributhon' prize='2nd' from='National IT Industry Promotion Agency' />
+          <AwardItem year='2020' title='SW Hackathon Constest' prize='1st' from='Computer Science and Engineering in Pai Chai University' />
+          <AwardItem year='2020' title='Programming Challenge' prize='2nd' from='Computer Science and Engineering in Pai Chai University' />
+          <AwardItem year='2019' title='Programming Challenge' prize='1st' from='Computer Science and Engineering in Pai Chai University' />
           <AwardItem year='2019' title='Programming Contest' prize='1st' from='Computer Science and Engineering in Pai Chai University' />
           <AwardItem year='2017' title='Daejeon Skill Competition (Game Development)' prize='3rd' from='Organization of Daejeon skill competition, Daejeon, Republic of Korea' />
           <AwardItem year='2016' title='Korea Olympiad in Informatics (Contest)' prize='3rd' from='Ministry of Science and ICT , Republic of Korea' />
-          <AwardItem year='2015' title='Korea Olympiad in Informatics (Contest)' prize='1rd' from='Ministry of Science and ICT , Republic of Korea' />
+          <AwardItem year='2015' title='Korea Olympiad in Informatics (Contest)' prize='1st' from='Ministry of Science and ICT , Republic of Korea' />
           <AwardItem year='2015' title='Daejeon Olympiad in Informatics (Competition)' prize='Participation Prize' from='Daejeon Institute of Education Information, Republic of Korea' />
-
         </Items>
 
+        <PrintBreak/>
+
+        <Items title="Open Source Projects">
+        <ProjectItem title='Chromium' date='2020.8-' >
+            The Chromium Project Member
+             <ul>
+              <li>Project Member</li>
+              <li> C++</li>
+              <li><a className='breakable' href="https://chromium-review.googlesource.com/dashboard/1438488 ">Dashboard: https://chromium-review.googlesource.com/dashboard/1438488 </a></li>
+              <li><a className='breakable' href="https://chromium-review.googlesource.com/q/owner:0xdevssh%2540gmail.com ">Work: https://chromium-review.googlesource.com/q/owner:0xdevssh%2540gmail.com </a>  </li>
+            </ul>
+          </ProjectItem>
+          <ProjectItem title='Perf, Kernel/Linux' date='2017.12-' >
+        Fix the initialization order in Perf GUI. 
+             <ul>
+              <li>Contributor</li>
+              <li> C </li>
+              <li> System, Linux </li>
+              <li><a className='breakable' href="https://bit.ly/2PazOTn">Patch: https://bit.ly/2PazOTn</a></li>
+            </ul>
+        </ProjectItem>
+
+        <ProjectItem title='Osu!' date='2017.12-' >
+        Found & Fix the bug on the Retry counter.  
+             <ul>
+              <li>Contributor</li>
+              <li> C# </li>
+              <li> Game </li>
+              <li><a className='breakable' href="https://github.com/ppy/osu/pull/1709 ">Patch: https://github.com/ppy/osu/pull/1709 </a></li>
+            </ul>
+        </ProjectItem>
+
+        <ProjectItem title='Osu!-Framework' date='2017.12-' >
+        Suggest the possibility of asynchronous functions' problem. Fix the possibility.
+             <ul>
+              <li>Contributor</li>
+              <li> C# </li>
+              <li> Game Engine, Framework</li>
+              <li><a className='breakable' href="https://github.com/ppy/osu-framework/pull/1241">Patch: https://github.com/ppy/osu-framework/pull/1241</a></li>
+            </ul>
+        </ProjectItem>
+        <ProjectItem title='Solvedac-plugin' date='2019.11-' >
+        Suggested & implemented the feature non-regular member can evaluate their ratings. 
+             <ul>
+              <li>Contributor</li>
+              <li> JS/HTML </li>
+              <li> Chrome-extension </li>
+              <li><a className='breakable' href="https://github.com/shiftpsh/solvedac-plugin/pull/23 ">Patch: https://github.com/shiftpsh/solvedac-plugin/pull/23 </a></li>
+            </ul>
+        </ProjectItem>
+
+        </Items>
         <PrintBreak/>
         <Items title="Projects">
 
@@ -136,57 +198,6 @@ I have a very wide spectrum of development through various experiences.
         <PrintBreak/>
 
 
-        <Items title="Open Source Experiences">
-        <ProjectItem title='Chromium' date='2020.8-' >
-            The Chromium Project Member
-             <ul>
-              <li>Contributor</li>
-              <li> C++</li>
-              <li><a className='breakable' href="https://chromium-review.googlesource.com/dashboard/1438488 ">Dashboard: https://chromium-review.googlesource.com/dashboard/1438488 </a></li>
-            </ul>
-          </ProjectItem>
-        <ProjectItem title='Solvedac-plugin' date='2019.11-' >
-        Suggested & implemented the feature non-regular member can evaluate their ratings. 
-             <ul>
-              <li>Contributor</li>
-              <li> JS/HTML </li>
-              <li> Chrome-extension </li>
-              <li><a className='breakable' href="https://github.com/shiftpsh/solvedac-plugin/pull/23 ">Patch: https://github.com/shiftpsh/solvedac-plugin/pull/23 </a></li>
-            </ul>
-        </ProjectItem>
-        <ProjectItem title='Osu!' date='2017.12-' >
-        Found & Fix the bug on the Retry counter.  
-             <ul>
-              <li>Contributor</li>
-              <li> C# </li>
-              <li> Game </li>
-              <li><a className='breakable' href="https://github.com/ppy/osu/pull/1709 ">Patch: https://github.com/ppy/osu/pull/1709 </a></li>
-            </ul>
-        </ProjectItem>
-
-        <ProjectItem title='Osu!-Framework' date='2017.12-' >
-        Suggest the possibility of asynchronous functions' problem. Fix the possibility.
-             <ul>
-              <li>Contributor</li>
-              <li> C# </li>
-              <li> Game Engine, Framework</li>
-              <li><a className='breakable' href="https://github.com/ppy/osu-framework/pull/1241">Patch: https://github.com/ppy/osu-framework/pull/1241</a></li>
-            </ul>
-        </ProjectItem>
-
-        <ProjectItem title='Perf, Kernel/Linux' date='2017.12-' >
-        Fix the initialization order in Perf GUI. 
-             <ul>
-              <li>Contributor</li>
-              <li> C </li>
-              <li> System, Linux </li>
-              <li><a className='breakable' href="https://bit.ly/2PazOTn">Patch: https://bit.ly/2PazOTn</a></li>
-            </ul>
-        </ProjectItem>
-
-        </Items>
-        <PrintBreak/>
-
         <Items title="Skills">
           <SkillShared/>
         </Items>
@@ -204,6 +215,7 @@ I have a very wide spectrum of development through various experiences.
 
         <Items title="Certificates">
           <ul>
+          <li>(2020) TOEIC 835</li>
             <li>(2016) Craftsman Information Processing</li>
           </ul>
         </Items>

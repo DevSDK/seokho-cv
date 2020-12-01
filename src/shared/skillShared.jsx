@@ -31,7 +31,6 @@ class SkillShared extends React.Component {
             <Skills title="Game Engines">
                 <Skill>Cocos2d-x</Skill>
                 <Skill>Unity</Skill>
-                <Skill>Unreal</Skill>
             </Skills>
             <Skills title="Principle Frameworks / Libraries">
                 <Skill>AndroidSDK</Skill>
@@ -56,17 +55,7 @@ class SkillShared extends React.Component {
                 <Skill>GCP</Skill>
                 <Skill>AWS</Skill>
             </Skills>
-            <Skills title="Tools">
-                <Skill>Git</Skill>
-                <Skill>Vim</Skill>
-                <Skill>GDB</Skill>
-                <Skill>Objdump</Skill>
-                <Skill>VSCode</Skill>
-                <Skill>PyCharm</Skill>
-                <Skill>IDEA</Skill>
-                <Skill>CMake / Makefile</Skill>
-                <Skill>Notion</Skill>
-            </Skills>
+
             <Skills title="Data Bases">
                 <Skill>MYSQL</Skill>
                 <Skill>SQLite</Skill>
@@ -78,7 +67,17 @@ class SkillShared extends React.Component {
                 <Skill>WebGL</Skill>
 
             </Skills>
-
+            <Skills title="Tools">
+                <Skill>Git</Skill>
+                <Skill>Vim</Skill>
+                <Skill>GDB</Skill>
+                <Skill>Objdump</Skill>
+                <Skill>VSCode</Skill>
+                <Skill>PyCharm</Skill>
+                <Skill>IDEA</Skill>
+                <Skill>CMake / Makefile</Skill>
+                <Skill>Notion</Skill>
+            </Skills>
             <Skills title="Etc.">
                 <Skill>Compiler</Skill>
                 <Skill>Cross-Platform Architecture</Skill>
@@ -87,6 +86,7 @@ class SkillShared extends React.Component {
                 <Skill>NginX</Skill>
                 <Skill>Algorithm</Skill>
                 <Skill>Data Structure</Skill>
+                <Skill>Design Pattern</Skill>
             </Skills>
 
 
