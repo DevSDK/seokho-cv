@@ -11,24 +11,14 @@ import Link from '../tags/link'
 library.add(fab)
 
 
-class Contacts extends React.Component {
-    constructor(props) {
-        super(props)
-
-      
-        
-    }
-    render() {
-        return(
+const Contacts = () => {
+    return (
         <div className='contact'>
             <div className='contact-text'>0xdevssh@gmail.com</div>
             <Link icon='github' text='DevSDK' href='https://github.com/devsdk' />
             <Link icon='linkedin' text='seokho-song' href='https://www.linkedin.com/in/seokho-song/' />
-            
         </div>
-        )
-    }
-
+    )
 }
- 
+
 export default Contacts;

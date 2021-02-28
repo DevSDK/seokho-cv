@@ -12,17 +12,14 @@ import Skill from '../tags/skill'
 library.add(fab)
 
 
-class SkillShared extends React.Component {
-    constructor(props) {
-        super(props)
-    }
-    render() {
-        var ele = <div>
-
+const SkillShared = () => {
+    return (
+        <div>
             <Skills title="Programming Languages">
                 <Skill>C/C++</Skill>
                 <Skill>C#</Skill>
                 <Skill>Java</Skill>
+                <Skill>Go</Skill>
                 <Skill>Assembly (NASM, MIPS)</Skill>
                 <Skill>Javascript</Skill>
                 <Skill>Python</Skill>
@@ -32,7 +29,7 @@ class SkillShared extends React.Component {
                 <Skill>Cocos2d-x</Skill>
                 <Skill>Unity</Skill>
             </Skills>
-            <Skills title="Principle Frameworks / Libraries">
+            <Skills title="Low-level Frameworks / Libraries">
                 <Skill>AndroidSDK</Skill>
                 <Skill>OpenGL</Skill>
                 <Skill>DirectX</Skill>
@@ -42,30 +39,31 @@ class SkillShared extends React.Component {
                 <Skill>Django</Skill>
                 <Skill>Jquery</Skill>
                 <Skill>NodeJS</Skill>
-                <Skill>VueJS</Skill>
+                <Skill>Gin-Gonic</Skill>
                 <Skill>React</Skill>
                 <Skill>BootStrap</Skill>
             </Skills>
             <Skills title="Systems/Platforms">
-            <Skill>X86 / 64 Architecture</Skill>
+                <Skill>X86 / 64 Architecture</Skill>
                 <Skill>Windows</Skill>
                 <Skill>Ubuntu / Linux</Skill>
                 <Skill>Android</Skill>
                 <Skill>Linux Kernel</Skill>
                 <Skill>GCP</Skill>
                 <Skill>AWS</Skill>
+                <Skill>Docker</Skill>
+                <Skill>Kubernetes</Skill>
             </Skills>
-
-            <Skills title="Data Bases">
+            <Skills title="DataBases">
                 <Skill>MYSQL</Skill>
                 <Skill>SQLite</Skill>
+                <Skill>MongoDB</Skill>
             </Skills>
 
             <Skills title="Web">
                 <Skill>HTML5 / CSS3</Skill>
                 <Skill>Markdown</Skill>
                 <Skill>WebGL</Skill>
-
             </Skills>
             <Skills title="Tools">
                 <Skill>Git</Skill>
@@ -79,6 +77,7 @@ class SkillShared extends React.Component {
                 <Skill>Notion</Skill>
             </Skills>
             <Skills title="Etc.">
+                <Skill>Redis</Skill>
                 <Skill>Compiler</Skill>
                 <Skill>Cross-Platform Architecture</Skill>
                 <Skill>Open Source</Skill>
@@ -88,12 +87,8 @@ class SkillShared extends React.Component {
                 <Skill>Data Structure</Skill>
                 <Skill>Design Pattern</Skill>
             </Skills>
-
-
         </div>
-        return ele
-    }
-
+    )
 }
 
 export default SkillShared;

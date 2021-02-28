@@ -16,7 +16,7 @@ class ProjectItem extends React.Component {
     render() {
         var render = <div style={{ marginBottom: '40px' }}>
             <div style={{ display: 'flex' }}>
-                <div style={{ fontSize: '1.2rem', width: '60%', display: 'table-cell', fontWeight: 'bold' }}>{this.props.title} </div>&nbsp;
+                <div className="project-title">{this.props.title} </div>&nbsp;
             <div style={{ width: '20', textAlign: 'right', display: 'table-cell' }}>{this.props.date}</div> &nbsp;
         </div>
             <div style={{ marginTop: '10px' } }>

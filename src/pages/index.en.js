@@ -12,35 +12,44 @@ export default function App() {
     <div>
       <MainLayout lng='en'>
         <Items title="Introduce">
-       <span style={{fontWeight:'bold'}}> I do love challenges.  I've ready to learn anything. </span>
-<br/>
-I have a very wide spectrum of development through various experiences. I do not hesitate to do something new.
-<br/>
+            <div className='introduce-content'>
+            <span className='introduce-title'>One line of the code, I change the world.</span><br />
+              &nbsp; I love to participate Open Source projects. And I have a huge interest about contribute to the world.<br />
+              &nbsp; Currently, as a chromium project member, I am working on the feature development and fixing issues on the Chromium Blink project. <br />
+              &nbsp; I got thanks from developers who waiting for the feature I implemented. <br />
+              &nbsp; By sharing these experiences, I hope to go forward with great people who want to make the better world.<br />
 
-&nbsp;In elementary students, I entered the programming world with developing Minecraft mod. I'm interested in everything related to programming. 
-<br/>
-&nbsp;I believe chance favors only the prepared mind. Now I work hard to be ready.
-<br/>
-<br/>
-<span style={{fontWeight:'bold'}}>The experience makes me the engineer.</span>
-<br/>
-&nbsp; I have enjoyed and tried the experience with Android / iOS application, Web Front-End/Back-End, System / Application software. Begin with KOI(Korea Olympiad in Informatics), I challenged various competitions or contests and got prizes. Also, I've been selected SW Maestro Program and get a great experience and met many great people.
-<br/>
-<br/>
-<span style={{fontWeight:'bold'}}>One line of the code, change the world.</span>
-<br/>
-&nbsp; I love to participate Open Source projects. And I have a huge interest about contribute to the world.
-<br/>
-&nbsp; Currently, as a chromium project member, I am working on the feature development and fixing issues for the Chromium Blink project.
+
+              <br />
+              <span className='introduce-title'> I do love the various experiences.</span><br />
+              &nbsp; I have a very wide spectrum of development through various experiences. 
+              I have enjoyed and tried the experience with Android application, Web Front-End/Back-End, System / Application software.
+               Begin with KOI(Korea Olympiad in Informatics), I challenged various competitions or contests and got prizes. 
+               Also, I've been selected SW Maestro Program (Korea government program) and get a great experience with great people. 
+               Recently, I interest in back-end and web service. So I've done a personal project related in web service. <br />
+              <br />
+              <span className='introduce-title'> I'd like to be a developer with communication skills who people want to work with me. </span><br />
+              &nbsp;I want to learn and take different development paradigm in an open mind. And I'd want to review the code and sharing the articles with co-workers to give the insights and motivations that I have. <br />
+              &nbsp; For that, I've written a dev-blog what I learn or want to share. Also, I created design documentation about the project for open-source developers. <br />
+              &nbsp;I believe chance favors only the prepared mind. Now I work hard to be ready.
+            </div>
         </Items>
 
 
+        <Items title="Activities">
+          <ul>
+            <li>(2020) Open Source Contributhon Chromium Team</li>
+            <li>(2017) Software maestro 8th mentee</li>
+            <li>(2015) Information special education 2nd step of chungnam national university</li>
+            <li>(2014) Information special education 1st step of chungnam national university</li>
+          </ul>
+        </Items>
 
 
         <Items title="Awards">
           <AwardItem year='2020' title='Contributhon' prize='2nd' from='National IT Industry Promotion Agency' />
           <AwardItem year='2020' title='SW Hackathon Constest' prize='1st' from='Computer Science and Engineering in Pai Chai University' />
-          <AwardItem year='2020' title='Programming Challenge' prize='2nd' from='Computer Science and Engineering in Pai Chai University' />
+
           <AwardItem year='2019' title='Programming Challenge' prize='1st' from='Computer Science and Engineering in Pai Chai University' />
           <AwardItem year='2019' title='Programming Contest' prize='1st' from='Computer Science and Engineering in Pai Chai University' />
           <AwardItem year='2017' title='Daejeon Skill Competition (Game Development)' prize='3rd' from='Organization of Daejeon skill competition, Daejeon, Republic of Korea' />
@@ -49,64 +58,85 @@ I have a very wide spectrum of development through various experiences. I do not
           <AwardItem year='2015' title='Daejeon Olympiad in Informatics (Competition)' prize='Participation Prize' from='Daejeon Institute of Education Information, Republic of Korea' />
         </Items>
 
-        <PrintBreak/>
+        <PrintBreak />
 
         <Items title="Open Source Projects">
-        <ProjectItem title='Chromium' date='2020.8-' >
+          <ProjectItem title='Chromium' date='2020.8-' >
             The Chromium Project Member
              <ul>
               <li>Project Member</li>
               <li> C++</li>
+              <li><a className='breakable' href="https://chromestatus.com/feature/5657825571241984">CSS calc infinity and NaN feature owner </a></li>
               <li><a className='breakable' href="https://chromium-review.googlesource.com/dashboard/1438488 ">Dashboard: https://chromium-review.googlesource.com/dashboard/1438488 </a></li>
               <li><a className='breakable' href="https://chromium-review.googlesource.com/q/owner:0xdevssh%2540gmail.com ">Work: https://chromium-review.googlesource.com/q/owner:0xdevssh%2540gmail.com </a>  </li>
             </ul>
           </ProjectItem>
           <ProjectItem title='Perf, Kernel/Linux' date='2017.12-' >
-        Fix the initialization order in Perf GUI. 
+            Fix the initialization order in Perf GUI.
              <ul>
               <li>Contributor</li>
               <li> C </li>
               <li> System, Linux </li>
               <li><a className='breakable' href="https://bit.ly/2PazOTn">Patch: https://bit.ly/2PazOTn</a></li>
             </ul>
-        </ProjectItem>
+          </ProjectItem>
 
-        <ProjectItem title='Osu!' date='2017.12-' >
-        Found & Fix the bug on the Retry counter.  
+          <ProjectItem title='Osu!' date='2017.12-' >
+            Found & Fix the bug on the Retry counter.
              <ul>
               <li>Contributor</li>
               <li> C# </li>
               <li> Game </li>
               <li><a className='breakable' href="https://github.com/ppy/osu/pull/1709 ">Patch: https://github.com/ppy/osu/pull/1709 </a></li>
             </ul>
-        </ProjectItem>
+          </ProjectItem>
 
-        <ProjectItem title='Osu!-Framework' date='2017.12-' >
-        Suggest the possibility of asynchronous functions' problem. Fix the possibility.
+          <ProjectItem title='Osu!-Framework' date='2017.12-' >
+            Suggest the possibility of asynchronous functions' problem. Fix the possibility.
              <ul>
               <li>Contributor</li>
               <li> C# </li>
               <li> Game Engine, Framework</li>
               <li><a className='breakable' href="https://github.com/ppy/osu-framework/pull/1241">Patch: https://github.com/ppy/osu-framework/pull/1241</a></li>
             </ul>
-        </ProjectItem>
-        <ProjectItem title='Solvedac-plugin' date='2019.11-' >
-        Suggested & implemented the feature non-regular member can evaluate their ratings. 
+          </ProjectItem>
+          <ProjectItem title='Solvedac-plugin' date='2019.11-' >
+            Suggested & implemented the feature non-regular member can evaluate their ratings.
              <ul>
               <li>Contributor</li>
               <li> JS/HTML </li>
               <li> Chrome-extension </li>
               <li><a className='breakable' href="https://github.com/shiftpsh/solvedac-plugin/pull/23 ">Patch: https://github.com/shiftpsh/solvedac-plugin/pull/23 </a></li>
             </ul>
-        </ProjectItem>
+          </ProjectItem>
 
         </Items>
-        <PrintBreak/>
+        <PrintBreak />
         <Items title="Projects">
 
+        <ProjectItem title='DFD' date='2021.1-2021.2'>
+            A Web Service provides game histories and statistics to League of Legends game crew "FV"
+            <ul>
+              <li> Persnal Project</li>
+              <li> Golang, Gin-Gonic, MongoDB, Docker, JWT, Kubernetes, Redis, JWT, RIOT API </li>
+              <li> Web-Service, Back-end, Restful API</li>
+              <li><a className='breakable' href="https://devsdk.net/dfd">https://devsdk.net/dfd</a></li>
+              <li><a className='breakable' href="https://github.com/DevSDK/DFD">Repository</a></li>
+            </ul>
+          </ProjectItem>
+
+          <ProjectItem title='EmotionTalk' date='2020.11-2020.11' >
+            An android application project based on face Recognition using Google Cloud Platform.
+            <ul>
+              <li> Persnal Project</li>
+              <li> ReactNative, Google Cloud Platform, Face Recognition</li>
+              <li> Android, AI, CV</li>
+              <li><a className='breakable' href="https://docs.google.com/presentation/d/1RmcQdMUeiar-nje7Kdadc8X7ds3cMzdL7ZlbFDxw1mk/edit?usp=sharing">Google Presentation</a></li>
+            </ul>
+          </ProjectItem>
 
           <ProjectItem title='GCP-WebProject' date='2019.11-2019-12' >
-            Face Recognition using Google Cloud Platform. 
+            A web project based on face Recognition using Google Cloud Platform.
             <ul>
               <li> Team Project </li>
               <li> JQuery, Bootstrap, Google Cloud Platform, Face Recognition</li>
@@ -137,7 +167,7 @@ I have a very wide spectrum of development through various experiences. I do not
           </ProjectItem>
 
           <ProjectItem title='Connseed' date='2017.06-207.07' >
-            Smartfarm solution project based on SKT Lora network. 
+            Smartfarm solution project based on SKT Lora network.
              <ul>
               <li> Team Project </li>
               <li> Python, Django, SQLite </li>
@@ -157,7 +187,7 @@ I have a very wide spectrum of development through various experiences. I do not
 
           <ProjectItem title='Block GL' date='2016.10-2016.12' >
 
-          WebGL block coding webpage like scratch.
+            WebGL block coding webpage like scratch.
              <ul>
               <li> Team Project </li>
               <li> JS, Blockly, WebGL, Pair Programming</li>
@@ -194,45 +224,32 @@ I have a very wide spectrum of development through various experiences. I do not
             </ul>
           </ProjectItem>
         </Items>
-
-        <PrintBreak/>
-
-
+        <Items title="Blog">
+          <a className="devlog-url" href="https://devsdk.github.io/">https://devsdk.github.io</a>
+        </Items>
+        <PrintBreak />
         <Items title="Skills">
-          <SkillShared/>
+          <SkillShared />
         </Items>
-
-
-        <Items title="Activities">
-          <ul>
-           <li>(2020) Open Source Contributhon Chromium Team</li>
-            <li>(2017) Software maestro 8th mentee</li>
-            <li>(2015) Information special education 2nd step of chungnam national university</li>
-            <li>(2014) Information special education 1st step of chungnam national university</li>
-          </ul>
-
-        </Items>
-
         <Items title="Certificates">
           <ul>
-          <li>(2020) TOEIC 835</li>
+            <li>(2020) TOEIC 835</li>
             <li>(2016) Craftsman Information Processing</li>
           </ul>
         </Items>
-
         <Items title="Educations">
           <ul>
             <li>(2019) Computer Science and Engineering of Pai Chai University</li>
           </ul>
         </Items>
-        <Items title="ETC"> 
-        <AwardItem year='2020' title='Mentoring Competition' prize='2nd' from='Computer Science and Engineering in Pai Chai University' />
-         <AwardItem year='2017' title='Daejeon Start Up Contest' prize='1st' from='Daejeon, Republic of Korea' />
+        <Items title="ETC">
+           <AwardItem year='2020' title='Programming Challenge' prize='2nd' from='Computer Science and Engineering in Pai Chai University' />
+          <AwardItem year='2020' title='Mentoring Competition' prize='2nd' from='Computer Science and Engineering in Pai Chai University' />
+          <AwardItem year='2017' title='Daejeon Start Up Contest' prize='1st' from='Daejeon, Republic of Korea' />
           <AwardItem year='2017' title='Daejeon Science Contest' prize='Special Prize' from='Daejeon, Republic of Korea' />
           <AwardItem year='2016' title='Smarteen App Chalange' prize='1st   (Special Prize)' from='SKT TexchX, Republic of Korea' />
           <AwardItem year='2015' title='Korea Research Contest of gifted and talented education in collage' prize='2nd' from='Korea Advanced Institute of Science and Technology, Republic of Korea' />
         </Items>
-
       </MainLayout>
     </div>
   );

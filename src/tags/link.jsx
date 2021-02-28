@@ -14,7 +14,6 @@ class Link extends React.Component {
     render() {
         return(
         <div className='contact-text'> <FontAwesomeIcon style={{width:'16px'}} icon={['fab',this.props.icon]}/>  <a href={this.props.href}>{this.props.text}</a></div>
-
         )
     }
 

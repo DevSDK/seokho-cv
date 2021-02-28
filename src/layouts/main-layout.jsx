@@ -9,6 +9,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import Helmet from 'react-helmet'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 library.add(fas)
 i18next.init({
     lng:'en',
@@ -31,7 +32,6 @@ i18next.init({
 class MainLayout extends React.Component {
     constructor(props) {
         super(props)
-
         i18next.changeLanguage(this.props.lng,function(){})
         
     }
@@ -44,9 +44,9 @@ class MainLayout extends React.Component {
     <div>
         <Helmet>
             <title>Seokho Song</title>
+            <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css"></link>
         </Helmet>
             <div className='print-hidden' style={{fontWeight:'bold'}}>
-                
                     {tags}
                     <a onClick={()=>window.print()} style={{float:"right"}}>
                  <FontAwesomeIcon  style={{width:'16px'}} icon={['fas', 'print']} />
@@ -61,9 +61,7 @@ class MainLayout extends React.Component {
                 <div className='header'>
                 <Contacts/>
                 <div className='header-information'> Computer Science And Engineering in Pai Chai University</div>
-                
-                <div className='header-information'> GPA 4.34</div>
-
+                <div className='header-information'> GPA 4.35</div>
                 </div>
                 <div>
                      {this.props.children}
