@@ -25,8 +25,9 @@ export default function App() {
               &nbsp; I have a very wide spectrum of development through various experiences. 
               I have enjoyed and tried the experience with Android application, Web Front-End/Back-End, System / Application software.
                Begin with KOI(Korea Olympiad in Informatics), I challenged various competitions or contests and got prizes. 
-               Also, I've been selected SW Maestro Program (Korea government program) and get a great experience with great people. 
-               Recently, I interest in back-end and web service. So I've done a personal project related in web service. <br />
+               Also, I've been selected SW Maestro Program (Korea government program) and get a great experience with great people.
+               Interesting <a href="https://groups.google.com/a/chromium.org/g/blink-dev/">New Web Features </a> (i.e. <a href="https://chromestatus.com/feature/6261030015467520">WebNFC</a>). Also,
+               Recently, I interest in web service. So I've done a toy project related in web service called DFD (back-end: golang, front-end: React). <br />
               <br />
               <span className='introduce-title'> I'd like to be a developer with communication skills who people want to work with me. </span><br />
               &nbsp;I want to learn and take different development paradigm in an open mind. And I'd want to review the code and sharing the articles with co-workers to give the insights and motivations that I have. <br />
