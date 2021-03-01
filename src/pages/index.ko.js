@@ -1,11 +1,11 @@
 import React from "react";
+
 import MainLayout from '../layouts/main-layout'
-import Contacts from '../shared/contacts'
-import Items from '../tags/items'
-import AwardItem from '../tags/awardItem'
-import ProjectItem from '../tags/projectItem'
+import Items from '../components/items'
+import AwardItem from '../components/awardItem'
+import ProjectItem from '../components/projectItem'
 import SkillShared from '../shared/skillShared'
-import PrintBreak from '../tags/printBreak'
+import PrintBreak from '../components/printBreak'
 export default function App() {
   return (
 

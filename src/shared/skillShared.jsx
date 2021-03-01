@@ -1,14 +1,10 @@
-
-
 import React from "react";
-import i18next from 'i18next'
+
 import './../styles/layout.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Link from '../tags/link'
-import Skills from '../tags/skills'
-import Skill from '../tags/skill'
+import Skills from '../components/skills'
+import Skill from '../components/skill'
 library.add(fab)
 
 

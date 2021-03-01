@@ -1,6 +1,5 @@
-
-
 import React from "react";
+
 import { Link } from "gatsby"
 import i18next from 'i18next'
 import './../styles/layout.css'
