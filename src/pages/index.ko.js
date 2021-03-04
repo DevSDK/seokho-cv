@@ -67,7 +67,7 @@ export default function App() {
           <ProjectItem title='Chromium' date='2020.8-' >
             구글 크로미움 프로젝트 맴버
              <ul>
-              <li>Project Member (Edit Bug, Testfarm Access, Merge own CR+2 Patch)</li>
+              <li>Project Member</li>
               <li> C++, HTML/CSS/Javascript</li>
               <li><a className='breakable' href="https://chromestatus.com/feature/5657825571241984">CSS calc infinity and NaN feature owner </a></li>
               <li><a className='breakable' href="https://chromium-review.googlesource.com/dashboard/1438488 ">Dashboard: https://chromium-review.googlesource.com/q/owner:0xdevssh%2540gmail.com </a></li>
