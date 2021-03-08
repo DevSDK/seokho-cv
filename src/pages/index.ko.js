@@ -57,7 +57,9 @@ export default function App() {
           <AwardItem year='2015' title='한국 정보 올림피아드 (공모부분)' prize='1위' from='대한민국 미래창조과학부 (현 과기정통부)' />
           <AwardItem year='2015' title='대전 정보 올림피아드 (경시부분)' prize='장려상' from='대한민국 대전 교육정보원' />
         </Items>
-
+        <Items title="Devlog">
+          <a className="devlog-url" href="https://devsdk.github.io/ko">https://devsdk.github.io/ko</a>
+        </Items>
         <PrintBreak />
 
 
@@ -113,12 +115,8 @@ export default function App() {
               <li><a className='breakable' href="https://github.com/shiftpsh/solvedac-plugin/pull/23 ">Patch: https://github.com/shiftpsh/solvedac-plugin/pull/23 </a></li>
             </ul>
           </ProjectItem>
-
-
         </Items>
-
         <PrintBreak />
-
         <Items title="Projects">
 
 
@@ -126,7 +124,7 @@ export default function App() {
             롤팟 'fv'을 위해 League of Legends 승률과 전적을 제공하는 웹서비스
             <ul>
               <li> 개인프로젝트</li>
-              <li> Golang, Gin-Gonic, MongoDB, Docker, JWT, Kubernetes, RESTFul, Redis, JWT, RIOT API, React </li>
+              <li> Golang, Gin-Gonic, MongoDB, Docker, JWT, Kubernetes, RESTFul, Redis, RIOT API, React </li>
               <li> Web-Service, Back-end, Restful API</li>
               <li><a className='breakable' href="https://devsdk.net/dfd"> Service: https://devsdk.net/dfd</a></li>
               <li><a className='breakable' href="https://github.com/DevSDK/DFD">Repository: https://github.com/DevSDK/DFD</a></li>
@@ -234,9 +232,7 @@ export default function App() {
           </ProjectItem>
 
         </Items>
-        <Items title="Devlog">
-          <a className="devlog-url" href="https://devsdk.github.io/ko">https://devsdk.github.io</a>
-        </Items>
+
         <PrintBreak />
 
         <Items title="Skills">

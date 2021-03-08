@@ -58,7 +58,9 @@ export default function App() {
           <AwardItem year='2015' title='Korea Olympiad in Informatics (Contest)' prize='1st' from='Ministry of Science and ICT , Republic of Korea' />
           <AwardItem year='2015' title='Daejeon Olympiad in Informatics (Competition)' prize='Participation Prize' from='Daejeon Institute of Education Information, Republic of Korea' />
         </Items>
-
+        <Items title="Blog">
+          <a className="devlog-url" href="https://devsdk.github.io/">https://devsdk.github.io</a>
+        </Items>
         <PrintBreak />
 
         <Items title="Open Source Projects">
@@ -225,9 +227,7 @@ export default function App() {
             </ul>
           </ProjectItem>
         </Items>
-        <Items title="Blog">
-          <a className="devlog-url" href="https://devsdk.github.io/">https://devsdk.github.io</a>
-        </Items>
+
         <PrintBreak />
         <Items title="Skills">
           <SkillShared />
