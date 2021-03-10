@@ -137,6 +137,16 @@ a:hover {
     margin-left:1rem;
 
 }
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: grey;
+    text-align: center;
+    font-size: small;
+}
+
 /*Responsive Area    */
 
 
