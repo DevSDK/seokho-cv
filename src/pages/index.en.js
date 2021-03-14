@@ -74,6 +74,18 @@ export default function App() {
               <li><a className='breakable' href="https://chromium-review.googlesource.com/q/owner:0xdevssh%2540gmail.com ">Work: https://chromium-review.googlesource.com/q/owner:0xdevssh%2540gmail.com </a>  </li>
             </ul>
           </ProjectItem>
+
+          <ProjectItem title='Web-Platform-Test' date='2020.8-' >
+              Writes the web standard test including WHATWG, W3C and others for browser interoperability.
+             <ul>
+              <li>Contributor</li>
+              <li>HTML/CSS/Javascript</li>
+              <li><a className='breakable' href="https://github.com/web-platform-tests/wpt/commits?author=DevSDK">Commits</a></li>
+              <li><a className='breakable' href="https://wpt.fyi/ ">WPT Dashboard</a></li>
+            </ul>
+          </ProjectItem>
+
+
           <ProjectItem title='Perf, Kernel/Linux' date='2017.12-' >
             Fix the initialization order in Perf GUI.
              <ul>
