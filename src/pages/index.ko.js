@@ -15,20 +15,20 @@ export default function App() {
 
           <div className="introduce-content">
 
-            <span className="introduce-title">세상을 바꾸는 엔지니어입니다.</span><br />
-            &nbsp;  더 나은 세상을 만들고자 오픈소스에서 적극적으로 활동하고 있고, 세상에 기여하는 것을 즐기고 있습니다. 
-            현재는 Chromium 프로젝트의 맴버로 활동하며 Chromium Blink 웹 엔진 기능 구현 및 버그픽스 작업을 하고 있습니다. 
-            구현한 기능(Select Custom Scroll Bar)이 크롬 라이브 버전에 업데이트되어 그 기능을 기다리던 사람들에게 감사 인사를 받기도 하였습니다. 
+            <span className="introduce-title">"Move the web forward"</span><br />
+            &nbsp;  더 나은 세상을 만들고, 웹 생태계가 앞으로 나아가기를 바라면서 웹 개발 커뮤니티에서 적극적으로 활동하고 있고, 세상에 기여하는 것을 즐기고 있습니다. 
+            현재는 Chromium 커뮤니티의 일원으로써 Chromium Blink 웹 엔진 기능 구현 및 버그픽스 작업을 하고, World Wide Web Consortium에 참여하며 웹 표준의 오류를 바로잡고, Web-Platform-Test를 작성하여 브라우져간 상호운용성을 지키고 있습니다. 
+            구현한 기능(Select Custom Scroll Bar)이 크롬 라이브 버전에 업데이트되어 그 기능을 기다리던 사람들에게 감사 인사를 받기도 하였습니다. 이 과정에서 사용한 도구인 chrome://tracing과 같은 퍼포먼스 유틸을 F/E 개발에 잘 활용하고 있습니다.
             이러한 경험을 나누고 성장하며, 세상을 변화시키고자 하는 사람들과 함께 나아가기를 기대하고 있습니다.<br />
             <br />
             <span className="introduce-title">다양한 경험을 좋아합니다.</span><br />
             &nbsp; 다양한 경험을 토대로 넓은 개발 스팩트럼을 가지고 있습니다. 저는 안드로이드 어플리케이션, 웹 프론트엔드 / 백엔드, 시스템소프트웨어 / 응용소프트웨어 등 분야의 경계를 뛰어넘어 다양한 개발 경험을 하는 것을 항상 즐겨왔고, 도전했습니다. 정보올림피아드를 시작으로 여러 대회에서 상을 받는 등 다양한 성과를 냈습니다. 또한 한국 정보산업 연합회 (Fkii)가 주관하는SW마에스트로 8기에 선정되어 훌륭한 사람들과 어깨를 나란히 하며 멘토링을 받고 프로젝트를 진행하는 등 다양한 경험을 하였습니다.
   새로운 Web Feature (i.e. <a href="https://chromestatus.com/feature/6261030015467520">WebNFC</a>)에 관심을 가지고 살펴보고 있습니다. Chromium에 Ship되거나 제안되는 웹 피쳐들은 <a href="https://groups.google.com/a/chromium.org/g/blink-dev/">여기서 </a>찾아볼 수 있습니다.
-   또한 최근에는 웹서비스에 관심을 가지고 go 언어 기반 백엔드, React 기반 프론트엔드 프로젝트 DFD를 진행하였습니다.<br />
+   또한 최근에는 좋은 웹 서비스란 무엇일까 고민하며 UX의 중요성을 알게 되어 UX를 관심가지고 공부하고 있습니다.<br />
             
             <br />
             <span className='introduce-title'>같이 일하고 싶은 "소통하는 개발자"를 지향합니다.</span><br/>
-              &nbsp; 다양한 개발 패러다임에 대해 열린 마음으로 받아들이고, 문제에 대해 더 나은 방향을 같이 고민하며, 블로그에 아티클을 공유하거나 코드리뷰를 해나가면서 동료에게 끊임없이 도움과 인사이트를 주는 개발자가 되고 싶습니다.
+              &nbsp; 다양한 개발 패러다임에 대해 열린 마음으로 받아들이고, 문제에 대해 더 나은 방향을 같이 고민하며, 블로그에 아티클을 공유하거나 코드리뷰를 해나가면서 동료에게 끊임없이 도움과 인사이트를 주는 개발자가 되고 싶습니다.  
              이를 위해 오픈소스 개발자들과 개발하고 있는 것에 대해 소통하기 위한 디자인 문서를 쓰고, 블로그에 습득한 지식과 기술 사항을 정리하고 있습니다. <br/>
               &nbsp; 준비된 자가 기회를 잡을 수 있다고 믿고 있으며, 항상 준비된 사람이 되기 위해 노력하고 있습니다.<br/>
 
@@ -67,13 +67,24 @@ export default function App() {
         <Items title="Open Source Projects">
 
           <ProjectItem title='Chromium' date='2020.8-' >
-            구글 크로미움 프로젝트 맴버
+            구글 크로미움 프로젝트 맴버, Blink Rendering Engine 개발 참여
              <ul>
               <li>Project Member</li>
               <li> C++, HTML/CSS/Javascript</li>
               <li><a className='breakable' href="https://chromestatus.com/feature/5657825571241984">CSS calc infinity and NaN feature owner </a></li>
               <li><a className='breakable' href="https://chromium-review.googlesource.com/dashboard/1438488 ">Dashboard: https://chromium-review.googlesource.com/q/owner:0xdevssh%2540gmail.com </a></li>
               <li><a className='breakable' href="https://chromium-review.googlesource.com/q/owner:0xdevssh%2540gmail.com ">Work: https://chromium-review.googlesource.com/q/owner:0xdevssh%2540gmail.com </a>  </li>
+            </ul>
+          </ProjectItem>
+
+          <ProjectItem title='Web-Platform-Test' date='2020.8-' >
+             웹 브라우져간 interoperability를 위한 WHATWG, W3C 웹 표준 테스트 작성
+             <ul>
+              <li>Contributor</li>
+              <li>HTML/CSS/Javascript</li>
+              <li><a className='breakable' href="https://github.com/web-platform-tests/wpt/commits?author=DevSDK">Commits</a></li>
+              <li><a className='breakable' href="https://wpt.fyi/ ">WPT Dashboard</a></li>
+              <li><a className='breakable' href="https://youtu.be/zuK1uyXPZS0/">WPT Introduce</a></li>
             </ul>
           </ProjectItem>
 
@@ -96,7 +107,6 @@ export default function App() {
             </ul>
           </ProjectItem>
 
-
           <ProjectItem title='Osu!-Framework' date='2017.12-2017.12' >
             비동기 함수를 사용하는 부분에 대한 문제를 제시하고 그 가능성을 제거함
              <ul>
@@ -117,8 +127,8 @@ export default function App() {
           </ProjectItem>
         </Items>
         <PrintBreak />
+        
         <Items title="Projects">
-
 
         <ProjectItem title='DFD' date='2021.1-2021.2'>
             롤팟 'fv'을 위해 League of Legends 승률과 전적을 제공하는 웹서비스
@@ -147,6 +157,7 @@ export default function App() {
             Google Cloud Platform을 활용한 안면 인식/감정 추출 기반 웹 프로젝트
             <ul>
               <li> 팀프로젝트</li>
+              <li> 팀장, 프로젝트 리드 및 팀원들에게 jquery 사용법을 가르침</li>
               <li> JQuery, Bootstrap, Google Cloud Platform, Face Recognition</li>
               <li> Web, AI, CV</li>
               <li><a className='breakable' href="https://github.com/DevSDK/GCPWebProejct">Repository: https://github.com/DevSDK/GCPWebProejct</a></li>
@@ -158,6 +169,7 @@ export default function App() {
             KVM기반의 가상머신 솔루션. 하나의 머신을 여러 유저가 사용한다는 컨셉
             <ul>
               <li> SW 마에스트로 8기 팀프로젝트 </li>
+              <li> 팀원, VM의 VRAM에서 그래픽 정보를 가져와 OpenGL Rendering Panel구현</li>
               <li> C/C++ </li>
               <li> System, Linux, OpenGL </li>
               <li><a className='breakable' href="https://github.com/Bac0de">Repository: https://github.com/Bac0de</a></li>
@@ -179,6 +191,7 @@ export default function App() {
 
              <ul>
               <li>팀프로젝트</li>
+              <li>팀원, 통신서버 구현 </li>
               <li> Python, Django, SQLite </li>
               <li> A solution, Application, IOT </li>
               <li><a className='breakable' href="https://github.com/DevSDK/Connseed_Server">Server Repository: https://github.com/DevSDK/Connseed_Server</a></li>
@@ -198,6 +211,7 @@ export default function App() {
             스크래치같은 WebGL 블록코딩 웹페이지
              <ul>
               <li> 팀프로젝트 </li>
+              <li> 팀장, 패어프로그래밍으로 WebGL렌더링 과정을 Block에 적용 및 팀원과 번갈아가면서 작업</li>
               <li> JS, Blockly, WebGL, Pair Programming </li>
               <li> Webpage </li>
               <li><a className='breakable' href="https://devsdk.github.io/BlockGL/Code/Editor/Editor.html">URL: https://devsdk.github.io/BlockGL/Code/Editor/Editor.html</a></li>
@@ -209,6 +223,7 @@ export default function App() {
             스마트 라이브러리 시스템
              <ul>
               <li> 팀프로젝트 </li>
+              <li> 팀원, 팀원들의 기술적 문제 (i.e. Threading) 등을 해결하고 이슈를 디버깅하는 역할</li>
               <li> Java, JS, NodeJS, Android, Arduino </li>
               <li> A solution, Application </li>
             </ul>

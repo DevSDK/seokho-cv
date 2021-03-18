@@ -13,7 +13,7 @@ export default function App() {
       <MainLayout lng='en'>
         <Items title="Introduce">
             <div className='introduce-content'>
-            <span className='introduce-title'>One line of the code, I change the world.</span><br />
+            <span className='introduce-title'>"Move the web forward"</span><br />
               &nbsp; I love to participate Open Source projects. And I have a huge interest about contribute to the world.<br />
               &nbsp; Currently, as a chromium project member, I am working on the feature development and fixing issues on the Chromium Blink project. <br />
               &nbsp; I got thanks from developers who waiting for the feature I implemented. <br />

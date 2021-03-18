@@ -21,5 +21,8 @@ plugins: ['gatsby-plugin-react-helmet',
         },
       },
     },
+    {
+    resolve: `gatsby-plugin-webpack-size`,
+    }
 ]
 }
